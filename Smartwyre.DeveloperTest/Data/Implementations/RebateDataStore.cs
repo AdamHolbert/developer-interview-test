@@ -1,8 +1,9 @@
-﻿using Smartwyre.DeveloperTest.Types;
+﻿using Smartwyre.DeveloperTest.Data.Interfaces;
+using Smartwyre.DeveloperTest.Types.Models;
 
-namespace Smartwyre.DeveloperTest.Data;
+namespace Smartwyre.DeveloperTest.Data.Implementations;
 
-public class RebateDataStore
+public class RebateDataStore : IRebateDataStore
 {
     public Rebate GetRebate(string rebateIdentifier)
     {

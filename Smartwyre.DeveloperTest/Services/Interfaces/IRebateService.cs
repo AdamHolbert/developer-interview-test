@@ -1,6 +1,6 @@
-﻿using Smartwyre.DeveloperTest.Types;
+﻿using Smartwyre.DeveloperTest.Types.DTOs;
 
-namespace Smartwyre.DeveloperTest.Services;
+namespace Smartwyre.DeveloperTest.Services.Interfaces;
 
 public interface IRebateService
 {

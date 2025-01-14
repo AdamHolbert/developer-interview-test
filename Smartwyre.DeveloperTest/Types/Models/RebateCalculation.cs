@@ -1,4 +1,6 @@
-﻿namespace Smartwyre.DeveloperTest.Types;
+﻿using Smartwyre.DeveloperTest.Types.Enums;
+
+namespace Smartwyre.DeveloperTest.Types.Models;
 
 public class RebateCalculation
 {
