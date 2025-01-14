@@ -43,6 +43,6 @@ public class RebateService : IRebateService
         return new CalculateRebateResult()
         {
             Success = result.Success,
-        }; ;
+        };
     }
 }
